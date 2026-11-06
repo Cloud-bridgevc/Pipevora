@@ -1,0 +1,20 @@
+/* Pipevora theme */
+:root {
+  --pp-accent: #0369a1;
+  --pp-accent-hover: #075985;
+  --pp-accent2: #2ee6d6;
+  --pp-ink: #0b2233;
+  --pp-muted: #4a5f6e;
+  --pp-paper: #f3f8fa;
+  --pp-tint: #e3eff4;
+  --pp-card: #ffffff;
+  --pp-line: #d2e1e8;
+  --pp-dark: #06283d;
+  --pp-dark-ink: #eaf5f9;
+  --pp-serif: 'Outfit', system-ui, sans-serif;
+  --pp-sans: 'Inter', system-ui, sans-serif;
+  --pp-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --pp-display-weight: 600;
+}
+h1, h2, .pp h2, .pp-manifesto-text, .pp-timeline h3 { font-weight: 600; letter-spacing: -.04em; }
+.pp-letter-body { font-family: var(--pp-sans); font-size: clamp(17px, 1.5vw, 20px); }
